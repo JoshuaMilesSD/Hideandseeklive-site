@@ -1,20 +1,163 @@
 <!DOCTYPE html>
-<html>
-<head><title>Hide and Seek Live - Privacy Policy</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hide and Seek Live! — Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      padding: 60px 24px 48px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: rgba(255,255,255,0.75);
+      font-size: 1rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 16px;
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 999px;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 36px 40px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #a5b4fc;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 16px;
+    }
+
+    p { color: #cbd5e1; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      color: #cbd5e1;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #6366f1;
+      font-weight: 700;
+    }
+
+    a { color: #818cf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: #475569;
+      font-size: 0.85rem;
+      border-top: 1px solid #1e293b;
+    }
+  </style>
+</head>
 <body>
-  <h1>Hide and Seek Live! Privacy Policy</h1>
-  <p>Last updated: May 20, 2026</p>
-  
-  <h2>Data We Collect</h2>
-  <p>Location data (during active gameplay only), email address, username, and in-game chat messages.</p>
 
-  <h2>How We Use It</h2>
-  <p>Location is used solely for gameplay mechanics and is not stored after a game ends. Email is used for authentication only.</p>
+  <header>
+    <h1>🙈 Hide and Seek Live!</h1>
+    <p>Privacy Policy</p>
+    <span class="badge">Last updated: May 20, 2026</span>
+  </header>
 
-  <h2>Third Parties</h2>
-  <p>We use Supabase for authentication and data storage. We do not sell your data.</p>
+  <main>
 
-  <h2>Contact</h2>
-  <p>Questions? Email: joshmiles2010@gmail.com</p>
+    <div class="card">
+      <h2>Data We Collect</h2>
+      <ul>
+        <li>Email address — for account creation and authentication only</li>
+        <li>Username — displayed to other players in your game</li>
+        <li>Location data — during active gameplay only, not stored after game ends</li>
+        <li>In-game chat messages — stored per game session</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>How We Use It</h2>
+      <p>Your location is used solely to power gameplay mechanics (boundary enforcement, proximity detection). It is broadcast only to players in your active game and is not retained after the game concludes.</p>
+      <p>Email is used for login only. We do not send marketing emails.</p>
+    </div>
+
+    <div class="card">
+      <h2>Third Parties</h2>
+      <ul>
+        <li>Supabase — authentication and secure data storage</li>
+        <li>We do not sell, rent, or share your data with advertisers</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Children's Privacy</h2>
+      <p>Hide and Seek Live! is intended for users 13 and older. Teen accounts are restricted to private, invite-only games. We do not knowingly collect data from children under 13.</p>
+    </div>
+
+    <div class="card">
+      <h2>Your Rights</h2>
+      <p>You may request deletion of your account and associated data at any time by contacting us below. Upon deletion, your location history, chat messages, and profile data are permanently removed.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact & Support</h2>
+      <p>Questions, concerns, or deletion requests:</p>
+      <p><a href="mailto:info@dailyadventureapp.com">info@dailyadventureapp.com</a></p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2026 Hide and Seek Live! &nbsp;·&nbsp; All rights reserved
+  </footer>
+
 </body>
 </html>
